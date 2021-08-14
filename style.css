@@ -3,19 +3,19 @@ body {
     margin: 0;
     font-size: 18px;
     line-height: 150%;
-    color: #333;
-    background-color: #efeee7;
+    color: #373b3c;
+    background-color: #faf5f2;
 }
 
 header {
-    background-color: #333;
+    background-color: white;
 }
 
 h1 {
     padding: 20px 0;
     margin: 0 0 20px;
     font-size: 28px;
-    color: #efeee7;
+    color: #000;
     text-align: center;
 
 }
@@ -30,7 +30,7 @@ h2 {
 }
 
 a {
-    color: red;
+    color: #555;
 }
 
 #main-bio, 
@@ -47,5 +47,6 @@ a {
     width: 30%;
 }
 
-#bio-image (
-)
+#bio-image {
+    width: auto;
+}
