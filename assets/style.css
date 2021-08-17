@@ -1,0 +1,144 @@
+:root {
+    --background-color: #faf5f2;
+    --text-color-soft: #373b3c;
+    --text-color-hard: #555;
+    --accent-color: #fd9d75;
+    --secondary-color: #494f4a;
+    --another-color: #1c1b1b;
+
+    --small-font: 14px;
+    --medium-font:24px;
+    --large-font:35px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 24px;
+    color: var(--text-color-soft);
+    background-color: var(--background-color);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+
+body a {
+    color: var(--text-color-hard);
+    text-decoration: none;
+}
+body a:hover {
+    text-decoration: underline var(--accent-color) 3px;
+}
+
+body ul {
+    list-style: none;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-size: var(--large-font);
+    color: var(--text-color-hard);
+    font-weight: lighter;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+}
+
+h2 {
+    font-size: var(--large-font);
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: var(--medium-font);
+    font-weight: lighter;
+}
+
+.about {
+display: flex;
+align-items: center;
+}
+
+.about-image {
+    flex: 1 50%;
+}
+
+.about-image img {
+    flex: 100%;
+    width: 100%;
+}
+
+.bio-container {
+    flex: 1 50%;
+    padding: 10vw;
+}
+
+.intro p {
+    padding: 50px 0;
+}
+
+.about ul {
+    display: inline-flex;
+    padding: 2.5vw 2.5vw 0 0;
+}
+
+.about ul li {
+    line-height: 2.5vw;
+    font-size: var(--small-font);
+}
+
+p {
+    font-size: var(--small-font);
+}
+
+.contact {
+    display: inline;
+}
+
+.contact ul {
+    display: inline;
+}
+
+footer {
+    background: var(--secondary-color);
+    display: flex;
+    justify-content: left;
+    align-items: column;
+    width: 100%;
+}
+
+@media screen and (min-width: 575px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 980px) {
+    
+}
