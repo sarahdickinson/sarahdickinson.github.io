@@ -166,13 +166,11 @@ footer div img {
 
 .projects-container {
     flex-direction: column;
+    border-top: 5px solid var(--secondary-color);
+    border-bottom: 5px solid var(--secondary-color);
 }
 
 .contact-container {
     flex-direction: column;
-}
-
-.about, .projects-container, .contact-container {
-    margin: 5px var(--secondary-color);
 }
 }
