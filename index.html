@@ -1,118 +1,111 @@
 <!DOCTYPE html>
 <html lang="en-us">
-	<head>
-		<link href="/your-path-to-uicons/css/uicons-regular-rounded.css" rel="stylesheet">
-		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale-1.0"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Sarah Dickinson</title>
-		<link rel="shortcut icon" type="image/png" href="./assets/s:d.png" />
-		<link rel="stylesheet" type="text/css" href="./assets/style.css" />
-	</head>
 
-	<body>
-		<header>
-			<h1>Sarah Dickinson</h1>
-			<nav>
-				<ul>
-					<li>
-						<a href="#about">About</a>
-					</li>
-					<li>
-						<a href="#projects">Projects</a>  
-					</li>
-					<li>
-						<a href="#contact">Contact</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		 
-		<section id="about" class="about">
-			<div class="title-container section-title">
-				<h2>About</h2>
-				<p>
-					Sarah is a multi talented - jack of all trades, and somehow also a master of them too. Her background offers a unique array of career experiences that have culminated in an unmatched talent for problem solving and strategy. 
-				</p>
-			</div>
-			<div class="about-image">
-				<img
-					src="./assets/SarahDickinson2.JPG"
-					alt="Sarah Dickinson"
-					width="200"
-				/>
-			</div>
-		</section>
+<head>
+    <title>Sarah Dickinson</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale-1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="assets/img/s:d.png" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.3/dist/css/uikit.min.css" />
 
-		<section id="projects" class="projects-container">
-			<div class="projects-50-50">
-				<div class="title-container">
-					<h2>Projects</h2>
-					<p>RECENT WORKS</p>
-				</div>
-			
-				<div class="featured-project project">
-					<!--Project Content Here-->
-					<a href="https://mociun.com/">
-						<img src="./assets/fi-rr-diamond.svg" alt="simple outline of faceted gemstone">
-						<h3>Mociun</h3>
-					</a>
-				</div>
-			</div>
+</head>
 
-			<div class="projects-grid">
-				<div class="project">
-					<!--Project Content Here-->
-					<a href="https://sarahdickinson.github.io/run-buddy/">
-						<img src="./assets/fi-rr-trophy.svg" alt="simple outline of trophy">
-						<h3>Run Buddy</h3>
-					</a>
-				</div>
-				<div class="project">
-					<!--Project Content Here-->
-					<a href="https://www.google.com/search?q=password+generator">
-						<img src="./assets/fi-rr-lock.svg" alt="simple outline of padlock">
-						<h3>Password Generator</h3>
-					</a>
-				</div>
-				<div class="project">
-					<!--Project Content Here-->
-					<a href="https://www.google.com/search?q=rock+paper+scissors+game">
-						<img src="./assets/fi-rr-cursor-finger.svg" alt="simple outline of hand with extended index finger">
-						<h3>Rock, Paper, Scissors</h3>
-					</a>
-				</div>
-				<div class="project">
-					<!--Project Content Here-->
-					<a href="https://mociun.as.me/schedule.php">
-						<img src="./assets/fi-rr-calendar.svg" alt="simple outline of calendar">
-						<h3>Schedule</h3>
-					</a>
-				</div>
-			</div>
-		</section>
+<body>
+    <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+            <div class="uk-text-large uk-margin-medium-left">Sarah Dickinson</div>
+        </div>
 
-		<section id="contact" class="contact">
-			<div class="title-container">
-				<h2>Contact</h2>
-				<p>GET IN TOUCH</p>
-				<span>
-					<p>Sarah Dickinson</p>
-					<p>704-574-7433</p>
-					<p>Brooklyn, NY</p>
-				</span>
-			</div>
-			<div class="contact-links">
-				<h3><a href="mailto:sarahadickinson@gmail.com">Email</a></h3>
-				<h3><a href="github.com/sarahdickinson.github.io">Github</a></h3>
-				<h3><a href="https://www.linkedin.com/in/sarah-dickinson-nyc/">LinkedIn</a></h3>
-			</div>	
-		</section>
+        <div class="uk-navbar-right uk-margin-medium-right">
 
-		<footer>
-			<div>
-				<img src="./assets/s:d.png" alt="" width="100px">
-			</div>
-		</footer>
-	</body>
+            <ul class="uk-navbar-nav uk-iconnav" id="uk-iconnav">
+                <li><a href="#about"><span class="uk-margin-small-right" uk-icon="icon: bolt"></span>About</a></li>
+                <li><a href="#projects"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span>Projects</a></li>
+                <li><a href="#contact"><span class="uk-margin-small-right" uk-icon="icon: pencil"></span>Contact</a></li>
+            </ul>
+            <ul class="uk-iconnav">
+                <li><a class="uk-navbar-toggle" uk-toggle="target: #uk-iconnav; mode: click" uk-tooltip="Menu"><span class="uk-margin-small-right" uk-icon="icon: menu"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="uk-section">
+        <div class="uk-flex flex-wrap uk-flex-1" uk-grid>
+            <div class="uk-card uk-width-1-2@m">
+                <div class="uk-card-title uk-padding-large">About</div>
+                <p class="uk-padding-large uk-margin-large">
+                    Sarah is a multi talented - jack of all trades, and somehow also a master of them too. Her background offers a unique array of career experiences that have culminated in an unmatched talent for problem solving and strategy.
+                </p>
+            </div>
+            <div class="uk-width-1-2@m uk-flex-first">
+                <img src="assets/img/SarahDickinson2.JPG" alt="Sarah Dickinson" />
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="uk-section">
+
+
+        <div class="uk-position-relative" uk-slideshow="ratio: 2:3; animation: fade">
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <a href="https://gtho-v2.herokuapp.com/"><img src="assets/img/gtho2.3.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://mociun.com"><img src="assets/img/mociun2.3.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://sarahdickinson.github.io/run-buddy/"><img src="assets/img/runbuddy2.3.png" alt=""></a>
+                </li>
+            </ul>
+
+            <div class="uk-position-bottom-center uk-position-small">
+                <ul class="uk-thumbnav">
+                    <li uk-slideshow-item="0">
+                        <a href="#"><img src="assets/img/gtho2.3.png" width="100" alt=""></a>
+                    </li>
+                    <li uk-slideshow-item="1">
+                        <a href="#"><img src="assets/img/mociun2.3.png" width="100" alt=""></a>
+                    </li>
+                    <li uk-slideshow-item="2">
+                        <a href="#"><img src="assets/img/runbuddy2.3.png" width="100" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="contact" class="uk-section">
+
+        <div class="uk-grid uk-child-width-1-2 uk-margin">
+
+            <div class="uk-card">
+                <div class="uk-card-body">
+                    <a href="mailto:sarahadickinson@gmail.com" class="uk-link-muted">GET IN TOUCH</a>
+                    <div>
+                        <a href="mailto:sarahadickinson@gmail.com" class="uk-margin-small-right uk-link-muted" uk-icon="icon: mail; ratio: 2"></a>
+                        <a href="https://www.instagram.com/asarahdickinson/" class="uk-margin-small-right uk-link-muted" uk-icon="icon: instagram; ratio: 2"></a>
+                        <a href="https://github.com/sarahdickinson" class="uk-margin-small-right uk-link-muted" uk-icon="icon: github; ratio: 2"></a>
+                        <a href="https://www.linkedin.com/in/sarah-dickinson-nyc/" class="uk-margin-small-right uk-link-muted" uk-icon="icon: linkedin; ratio: 2"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card uk-card-body">
+                <img src="assets/img/s:d.png" alt="Sarah Dickinson S/D logo"><canvas width="100"></canvas>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.3/dist/js/uikit-icons.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
 </html>

@@ -5,10 +5,9 @@
     --accent-color: #fd9d75;
     --secondary-color: #494f4a;
     --another-color: #1c1b1b;
-
     --small-font: 14px;
-    --medium-font:24px;
-    --large-font:35px;
+    --medium-font: 24px;
+    --large-font: 35px;
 }
 
 * {
@@ -30,6 +29,7 @@ body a {
     color: var(--text-color-hard);
     text-decoration: none;
 }
+
 body a:hover {
     text-decoration: underline var(--accent-color) 3px;
 }
@@ -83,8 +83,8 @@ h3 {
 }
 
 .about {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .about-image {
@@ -107,7 +107,6 @@ align-items: center;
 
 p {
     font-size: var(--small-font);
-
 }
 
 .projects-container {
@@ -126,7 +125,7 @@ p {
     flex: 1 50%;
 }
 
-.featured-project{
+.featured-project {
     align-self: center;
     padding: 10px;
 }
@@ -161,7 +160,7 @@ p {
 }
 
 .project:hover img {
-  opacity: 0.3;
+    opacity: 0.3;
 }
 
 .project:hover h3 {
@@ -190,70 +189,51 @@ p {
 
 footer {
     background: var(--secondary-color);
-    display: flex;
-    flex-direction: row-reverse;
-    color: #FFFFFF;
     padding: 10px 0;
     width: 30;
 }
-    
-
-footer img {
-    width: 100%;
-}
 
 @media screen and (max-width: 375px) {
-
-.about {
-    flex-direction: column-reverse;
-}
-
-.project img {
-    opacity: 0.3;
-}
-
-.contact {
-display: flex;
-flex-direction: column;
-align-content: center;
-justify-content: center;
-width: 100%;
-}
-
-.contact .title-container {
-    width: 100%;
-    margin: 50px;
-}
-
-.contact-links {
-    margin: 5vw;
-    width: 100%;
-}
-
-.contact-links h3 {
-    display: inline;
-    padding: 0 5px;
-}
+    .about {
+        flex-direction: column-reverse;
+    }
+    .project img {
+        opacity: 0.3;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .contact .title-container {
+        width: 100%;
+        margin: 50px;
+    }
+    .contact-links {
+        margin: 5vw;
+        width: 100%;
+    }
+    .contact-links h3 {
+        display: inline;
+        padding: 0 5px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-
-.projects-container {
-    flex-direction: column;
-}
-
-.projects-50-50 {
-    flex-direction: row;
-    width: 100%;
-}
-
-.project img {
-    opacity: 0.3;
-}
-
-.projects-grid {
-    flex-wrap: wrap;
-    width: 100%;
-}
-
+    .projects-container {
+        flex-direction: column;
+    }
+    .projects-50-50 {
+        flex-direction: row;
+        width: 100%;
+    }
+    .project img {
+        opacity: 0.3;
+    }
+    .projects-grid {
+        flex-wrap: wrap;
+        width: 100%;
+    }
 }

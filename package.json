@@ -1,0 +1,26 @@
+{
+  "name": "sarahdickinson.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio for Sarah Dickinson created for the porpose of introducing the subject and her body of work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahdickinson/sarahdickinson.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Sarah Dickinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahdickinson/sarahdickinson.github.io/issues"
+  },
+  "homepage": "https://github.com/sarahdickinson/sarahdickinson.github.io#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "uikit": "^3.9.3-dev.1ffd84b61"
+  }
+}
